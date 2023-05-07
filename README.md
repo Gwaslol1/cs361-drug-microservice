@@ -25,7 +25,7 @@ socket.send_string(f"{DRUG_NAME}")
 ```python
 DRUG_INFORMATION = socket.recv()
 ```
-This will be a JSON string, but it will still be encoded by ZeroMQ, and so it must be decoded to actually be useful. This is done through the provided decode function.
+This will be a JSON string, but it will still be encoded by ZeroMQ, and so must be decoded to actually be useful. This is done through the provided decode function.
 Use your language's built in JSON parsing library to turn the response into a useable JSON object.
 ```python
 DRUG_INFORMATION_DICTIONARY = json.loads(DRUG_INFORMATION.decode())
