@@ -1,11 +1,11 @@
 # cs361-drug-microservice
 
-# NOTE: MAKE SURE TO HAVE IMPORTED/INCLUDED ZEROMQ
+# Note: make sure to have imported ZeroMQ
 ```python
 import zmq
 ```
 
-# REQUEST (shown in Python)
+# Request (shown in Python)
 
 ### To make a request to the service, first connect to the socket on the standard port
 ```python
@@ -18,4 +18,4 @@ socket.connect("tcp://localhost:5555")
 socket.send_string(f"{DRUG_NAME}")
 ```
 
-# RECIEVE (shown in Python)
+# Receive (shown in Python)
