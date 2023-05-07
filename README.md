@@ -1,4 +1,4 @@
-# cs361-drug-microservice
+# CS361-drug-microservice
 
 # Note: make sure to have imported ZeroMQ and a JSON parsing library
 ```python
@@ -30,3 +30,6 @@ Use your language's built in JSON parsing library to turn the response into a us
 ```python
 DRUG_INFORMATION_DICTIONARY = json.loads(DRUG_INFORMATION.decode())
 ```
+
+# UML Sequence Diagram
+![image](https://user-images.githubusercontent.com/107678957/236708508-2cb07c7a-2ae5-4e34-8877-9c0750311a5f.png)
