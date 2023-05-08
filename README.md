@@ -32,4 +32,4 @@ DRUG_INFORMATION_DICTIONARY = json.loads(DRUG_INFORMATION.decode())
 ```
 
 # UML Sequence Diagram
-![image](https://user-images.githubusercontent.com/107678957/236708508-2cb07c7a-2ae5-4e34-8877-9c0750311a5f.png)
+![image](https://user-images.githubusercontent.com/107678957/236915439-6c47d585-d79c-4906-b00f-43f91f68e334.png)
