@@ -31,7 +31,7 @@ def main():
     drug_to_return = {}  # type:dict
 
     while True:
-        drug_name_request = socket.recv()
+        drug_name_request = socket.recv()  # Wait to receive request
         print(f"Request received, '{drug_name_request.decode()}', processing...")
 
         if drug_name_request.decode() == "Stop":
