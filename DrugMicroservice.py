@@ -1,3 +1,8 @@
+"""
+Author: Samuel Croll
+Date: 05/01/2023
+"""
+
 import json
 import zmq
 
